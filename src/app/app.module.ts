@@ -12,15 +12,23 @@ import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatButtonModule } from '@angular/material/button';
 
+
 import { SubDealsComponent } from './sub-deals/sub-deals.component';
+
+
+import { TjsSubtractComponent } from './tjs-subtract/tjs-subtract.component';
+import { GuitarGodsComponent } from './guitar-gods/guitar-gods.component';
+import { MatInputModule } from '@angular/material/input';
+import { MultiplicationComponent } from './multiplication/multiplication.component';
 
 import { TipCalculatorComponent } from './tip-calculator/tip-calculator.component';
 import { TimeComponent } from './time/time.component';
 import { MatSelectModule } from '@angular/material/select';
-import { MatInputModule } from '@angular/material/input';
 import { TjsSubtractionComponent } from './tjs-subtraction/tjs-subtraction.component';
 import { SpecialRequestComponent } from './special-request/special-request.component';
 import { GkAgeComponent } from './gk-age/gk-age.component';
+import { DonationComponent } from './donation/donation.component';
+import { MathComponent } from './math/math.component';
 
 
 @NgModule({
@@ -28,7 +36,14 @@ import { GkAgeComponent } from './gk-age/gk-age.component';
     AppComponent,
     PizzaToppingsComponent,
 
+
     SubDealsComponent,
+
+
+    TjsSubtractComponent,
+    TjsSubtractionComponent,
+    GuitarGodsComponent,
+    MultiplicationComponent,
 
     TipCalculatorComponent,
     TimeComponent,
@@ -39,7 +54,13 @@ import { GkAgeComponent } from './gk-age/gk-age.component';
 
     TjsSubtractionComponent,
     SpecialRequestComponent,
-    GkAgeComponent
+
+    GkAgeComponent,
+
+
+    GkAgeComponent,
+    DonationComponent,
+    MathComponent
 
   ],
   imports: [
